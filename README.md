@@ -225,24 +225,7 @@ The system implements an intelligent review rotation algorithm:
 - **Input Validation**: Server-side validation for all inputs
 - **CORS Configuration**: Proper cross-origin request handling
 
-## 🚀 Deployment Options
 
-### Option 1: Traditional Server Deployment
-- Deploy to VPS, AWS EC2, or similar
-- Use PM2 for process management
-- Set up reverse proxy with Nginx
-- Configure SSL certificates
-
-### Option 2: Cloud Platform Deployment
-- **Heroku**: Easy deployment with MongoDB Atlas
-- **Vercel**: Frontend with serverless functions
-- **Railway**: Full-stack deployment
-- **DigitalOcean App Platform**: Managed deployment
-
-### Option 3: Containerized Deployment
-- Docker containers for both frontend and backend
-- Docker Compose for local development
-- Kubernetes for production scaling
 
 ## 📊 Performance Considerations
 
@@ -274,16 +257,7 @@ pnpm run dev
 
 This project is created for educational and assessment purposes.
 
-## 🤝 Contributing
 
-This is an assessment project. For production use, consider:
-- Adding comprehensive unit and integration tests
-- Implementing proper logging and monitoring
-- Adding data backup and recovery procedures
-- Implementing advanced security measures
-- Adding performance monitoring and analytics
-
----
 
 **Note**: This application successfully implements all requirements from the SRS document including secure authentication, task management, review logic with rotation, real-time updates, and responsive cross-platform design.
 
