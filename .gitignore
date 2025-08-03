@@ -1,0 +1,39 @@
+# Root-level ignores
+.env
+.DS_Store
+node_modules/
+dist/
+build/
+*.log
+
+# VSCode
+.vscode/
+
+# OS
+Thumbs.db
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# === Backend Ignore ===
+/employee-task-management-backend/node_modules/
+/employee-task-management-backend/.env
+/employee-task-management-backend/.DS_Store
+
+# Logs & temp
+/employee-task-management-backend/logs
+/employee-task-management-backend/*.log
+
+# === Frontend Ignore ===
+/employee-task-management-frontend/node_modules/
+/employee-task-management-frontend/.env
+/employee-task-management-frontend/.DS_Store
+/employee-task-management-frontend/.next
+/employee-task-management-frontend/build
+/employee-task-management-frontend/.cache
+
+# Tailwind CSS generated files (if any)
+**/tailwind.config.js
+**/postcss.config.js
